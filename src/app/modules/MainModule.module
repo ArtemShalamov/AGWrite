@@ -1,0 +1,31 @@
+{
+  "props": [],
+  "components": {
+    "systemTray": {
+      "type": "script\\SystemTrayScript",
+      "x": 112,
+      "y": 32,
+      "props": {
+        "visible": "1",
+        "tooltip": "AGWrite 1.3",
+        "icon": ".data/img/Arrow-download-3-icon.png",
+        "manualExit": false,
+        "alwaysShowing": false
+      }
+    },
+    "fileChooser": {
+      "type": "script\\FileChooserScript",
+      "x": 32,
+      "y": 32,
+      "props": {
+        "saveDialog": false,
+        "initialDirectory": "",
+        "filterName": "Файл прошивки",
+        "filterExtensions": "*.hex",
+        "filterAny": true,
+        "inputNode": "edit",
+        "actionNode": "edit"
+      }
+    }
+  }
+}

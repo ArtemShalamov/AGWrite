@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?import javafx.scene.*?><?import javafx.collections.*?><?import javafx.scene.layout.*?><?import javafx.scene.control.*?><?import javafx.scene.text.*?><?import javafx.scene.image.*?><?import javafx.scene.shape.*?><?import javafx.scene.paint.*?><?import javafx.scene.web.*?><?import javafx.geometry.*?><?import java.lang.*?><?import org.develnext.jphp.ext.javafx.classes.data.*?><?import org.develnext.jphp.ext.javafx.support.*?><?import org.develnext.jphp.ext.javafx.support.control.*?><?import org.develnext.jphp.ext.game.support.*?><AnchorPane xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" AnchorPane.bottomAnchor="0" AnchorPane.leftAnchor="0" AnchorPane.rightAnchor="0" AnchorPane.topAnchor="0" focusTraversable="false" id="" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="168" prefWidth="448" styleClass="">
+  <children>
+    <TextField AnchorPane.leftAnchor="8" AnchorPane.rightAnchor="8" AnchorPane.topAnchor="64" alignment="CENTER" editable="true" focusTraversable="true" id="edit" layoutX="8" layoutY="64" prefColumnCount="12" prefHeight="32" prefWidth="432" promptText="Ссылка на HEX файл прошивки" styleClass="text-input text-field " text="">
+      <font>
+        <Font name="Source Sans Pro Regular" size="12"/>
+      </font>
+    </TextField>
+    <Data cursor="DEFAULT" enabled="1" id="data-edit" visible="1"/>
+    <Button AnchorPane.bottomAnchor="32" AnchorPane.rightAnchor="8" alignment="CENTER" contentDisplay="LEFT" ellipsisString="..." focusTraversable="true" graphicTextGap="4" id="button" layoutX="280" layoutY="104" prefHeight="32" prefWidth="160" styleClass="button " text="Загрузить" textAlignment="CENTER" underline="false" wrapText="false">
+      <font>
+        <Font name="Source Sans Pro Regular" size="12"/>
+      </font>
+    </Button>
+    <Data cursor="DEFAULT" enabled="1" id="data-button" visible="1"/>
+    <TextField AnchorPane.bottomAnchor="32" alignment="CENTER" editable="true" focusTraversable="true" id="editAlt" layoutX="8" layoutY="104" prefColumnCount="12" prefHeight="32" prefWidth="160" promptText="COM-Порт (только цифра)" styleClass="text-input text-field " text="">
+      <font>
+        <Font name="Source Sans Pro Regular" size="12"/>
+      </font>
+    </TextField>
+    <Data cursor="DEFAULT" enabled="1" id="data-editAlt" visible="1"/>
+    <LabelEx alignment="CENTER" autoSize="false" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="label" layoutX="8" layoutY="8" prefHeight="24" prefWidth="432" style="-fx-font-family: Segoe UI;-fx-font-size: 19.0;-fx-font-weight: bold;-fx-font-style: normal;" styleClass="label " text="AGWrite 1.3" textAlignment="LEFT" underline="false" wrapText="false">
+      <font>
+        <Font name="System Bold" size="19"/>
+      </font>
+    </LabelEx>
+    <Data cursor="DEFAULT" enabled="1" id="data-label" visible="1"/>
+    <LabelEx alignment="CENTER" autoSize="false" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="labelAlt" layoutX="8" layoutY="40" prefHeight="16" prefWidth="432" styleClass="label " text="ПО для прошивки платформы Arduino NANO (ATMega328p)" textAlignment="LEFT" underline="false" wrapText="true">
+      <font>
+        <Font name="Source Sans Pro Regular" size="12"/>
+      </font>
+    </LabelEx>
+    <Data cursor="DEFAULT" enabled="1" id="data-labelAlt" visible="1"/>
+    <LabelEx alignment="CENTER_LEFT" autoSize="false" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="label3" layoutX="8" layoutY="144" prefHeight="16" prefWidth="360" styleClass="label " text="Консоль..." textAlignment="LEFT" underline="false" wrapText="false">
+      <font>
+        <Font name="Source Sans Pro Regular" size="12"/>
+      </font>
+    </LabelEx>
+    <Data cursor="DEFAULT" enabled="1" id="data-label3" visible="1"/>
+    <Hyperlink alignment="CENTER_LEFT" contentDisplay="LEFT" ellipsisString="..." focusTraversable="true" graphicTextGap="4" id="link" layoutX="376" layoutY="144" prefHeight="16" prefWidth="64" styleClass="hyperlink " text="Работа с ПО" textAlignment="LEFT" wrapText="false">
+      <font>
+        <Font name="Source Sans Pro Regular" size="12"/>
+      </font>
+    </Hyperlink>
+    <Data cursor="DEFAULT" enabled="1" id="data-link" visible="1"/>
+  </children>
+</AnchorPane>

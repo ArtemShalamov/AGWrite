@@ -1,0 +1,13 @@
+{
+  "uid": "SimpleChatSkin",
+  "name": "SimpleChatSkin",
+  "version": "",
+  "description": "",
+  "author": "AG",
+  "authorSite": "",
+  "file": "",
+  "scopes": [
+    "gui",
+    "ide\\project\\behaviours\\GuiFrameworkProjectBehaviour"
+  ]
+}

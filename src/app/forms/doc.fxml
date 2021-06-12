@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?import javafx.scene.*?><?import javafx.collections.*?><?import javafx.scene.layout.*?><?import javafx.scene.control.*?><?import javafx.scene.text.*?><?import javafx.scene.image.*?><?import javafx.scene.shape.*?><?import javafx.scene.paint.*?><?import javafx.scene.web.*?><?import javafx.geometry.*?><?import java.lang.*?><?import org.develnext.jphp.ext.javafx.classes.data.*?><?import org.develnext.jphp.ext.javafx.support.*?><?import org.develnext.jphp.ext.javafx.support.control.*?><?import org.develnext.jphp.ext.game.support.*?><AnchorPane xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" AnchorPane.bottomAnchor="0" AnchorPane.leftAnchor="0" AnchorPane.rightAnchor="0" AnchorPane.topAnchor="0" focusTraversable="false" id="" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="456" prefWidth="640" styleClass="">
+  <children>
+    <LabelEx alignment="CENTER_LEFT" autoSize="false" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="label" layoutX="8" layoutY="40" prefHeight="48" prefWidth="624" styleClass="label " text="При открытии программы вам будет доступен выбор ссылки на файл прощивки и COM Порта. В правом левом углу находится консоль в которой вы сможете увидеть по какой причине прошивка не установилась. Установка прошивки занимает не более 5 секунд." textAlignment="LEFT" underline="false" wrapText="true">
+      <font>
+        <Font name="Source Sans Pro Regular" size="12"/>
+      </font>
+    </LabelEx>
+    <Data cursor="DEFAULT" enabled="1" id="data-label" visible="1"/>
+    <LabelEx alignment="CENTER" autoSize="false" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="label3" layoutX="8" layoutY="8" prefHeight="16" prefWidth="624" style="-fx-font-family: Segoe UI;-fx-font-size: 19.0;-fx-font-weight: bold;-fx-font-style: normal;" styleClass="label " text="Работа с ПО и решение ошибок" textAlignment="LEFT" underline="false" wrapText="false">
+      <font>
+        <Font name="System Bold" size="19"/>
+      </font>
+    </LabelEx>
+    <Data cursor="DEFAULT" enabled="1" id="data-label3" visible="1"/>
+    <Separator focusTraversable="false" id="separator" layoutX="8" layoutY="424" orientation="HORIZONTAL" prefHeight="8" prefWidth="624" styleClass="separator "/>
+    <Data cursor="DEFAULT" enabled="1" id="data-separator" visible="1"/>
+    <LabelEx alignment="CENTER_RIGHT" autoSize="false" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="label5" layoutX="184" layoutY="432" prefHeight="16" prefWidth="312" styleClass="label " text="Если вы нашли ошибку, то пишите нам на почту" textAlignment="LEFT" underline="false" wrapText="false">
+      <font>
+        <Font name="Source Sans Pro Regular" size="12"/>
+      </font>
+    </LabelEx>
+    <Data cursor="DEFAULT" enabled="1" id="data-label5" visible="1"/>
+    <Hyperlink alignment="CENTER_LEFT" contentDisplay="LEFT" ellipsisString="..." focusTraversable="true" graphicTextGap="4" id="link" layoutX="504" layoutY="432" prefHeight="16" prefWidth="128" styleClass="hyperlink " text="agw@shalamovartem.ml" textAlignment="LEFT" wrapText="false">
+      <font>
+        <Font name="Source Sans Pro Regular" size="12"/>
+      </font>
+    </Hyperlink>
+    <Data cursor="DEFAULT" enabled="1" id="data-link" visible="1"/>
+    <LabelEx alignment="CENTER" autoSize="false" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="label6" layoutX="188" layoutY="96" prefHeight="21" prefWidth="264" style="-fx-font-family: Segoe UI;-fx-font-size: 15.0;-fx-font-weight: bold;-fx-font-style: normal;" styleClass="label " text="Инструкция по прошивке:" textAlignment="LEFT" underline="false" wrapText="false">
+      <font>
+        <Font name="System Bold" size="15"/>
+      </font>
+    </LabelEx>
+    <Data cursor="DEFAULT" enabled="1" id="data-label6" visible="1"/>
+    <LabelEx alignment="TOP_LEFT" autoSize="false" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="label7" layoutX="8" layoutY="120" prefHeight="272" prefWidth="616" styleClass="label " text="Шаг 1: Подключите устройство.&#10;&#9;Подключите устройство кабелем к компьютеру.&#10;Шаг 2: Откройте диспетчер устройств.&#10;&#9;Нажмите правой кнопкой мыши по кнопке меню пуск. В открывшемся меню найдите &quot;Диспетчер устройств&quot; и&#10;&#9;откройте его.&#10;Шаг 3: Поиск устройства.&#10;&#9;В Диспетчере устройств найдите открывающийся список &quot;Порты (COM и LPT)&quot;, откройте этот список. Найдите в&#10;&#9;этом списке устройство &quot;USB-SERIAL CH340&quot;, и в конце него написан в скобках COM порт&#10;&#9;который надо будет указать при прошивке (в след. шагах). Если такого устройства нет, проверти исправность&#10;&#9;кабеля и установку драйверов (драйвер ищите на главной странице сайта).&#10;Шаг 4: Настройка программы.&#10;&#9;Выберите в строчке &quot;Ссылка на HEX файл прошивки&quot; файл прошивки который вы скачали с сайта. Напишите в&#10;&#9;строчке &quot;COM-Порт (только цифра)&quot; номер COM-порта устройства который вы узнали выше. Писать нужно&#10;&#9;только последнюю цифру!&#10;Шаг 5: Загрузка прошивки.&#10;&#9;Нажмите на кнопку &quot;Загрузить&quot; и ожидайте надписи в консоли &quot;Программа выполнена.&quot; Если это сообщение&#10;&#9;не отобразилось, то смотрите ниже вашу ошибку и решение." textAlignment="LEFT" underline="false" wrapText="true">
+      <font>
+        <Font name="Source Sans Pro Regular" size="12"/>
+      </font>
+    </LabelEx>
+    <Data cursor="DEFAULT" enabled="1" id="data-label7" visible="1"/>
+    <LabelEx alignment="CENTER_LEFT" autoSize="false" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="label8" layoutX="172" layoutY="400" prefHeight="16" prefWidth="168" styleClass="label " text="Инструкция с картинками тут:" textAlignment="LEFT" underline="false" wrapText="false">
+      <font>
+        <Font name="Source Sans Pro Regular" size="12"/>
+      </font>
+    </LabelEx>
+    <Data cursor="DEFAULT" enabled="1" id="data-label8" visible="1"/>
+    <Hyperlink alignment="CENTER_LEFT" contentDisplay="LEFT" ellipsisString="..." focusTraversable="true" graphicTextGap="4" id="linkAlt" layoutX="336" layoutY="400" prefHeight="16" prefWidth="112" styleClass="hyperlink " text="https://clck.ru/TMhfo" textAlignment="LEFT" wrapText="false">
+      <font>
+        <Font name="Source Sans Pro Regular" size="12"/>
+      </font>
+    </Hyperlink>
+    <Data cursor="DEFAULT" enabled="1" id="data-linkAlt" visible="1"/>
+  </children>
+</AnchorPane>
